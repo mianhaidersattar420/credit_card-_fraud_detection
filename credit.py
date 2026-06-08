@@ -6,7 +6,7 @@ from sklearn.metrics import classification_report,accuracy_score
 from sklearn.preprocessing import StandardScaler
 import joblib
 
-DATABASE_URL = 'mysql+mysqlconnector://root:subhan971@localhost/credit_d'
+DATABASE_URL = 'mysql+mysqlconnector://root:haider123@localhost/credit_d'
 
 
 engine = create_engine(DATABASE_URL)
